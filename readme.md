@@ -2,6 +2,9 @@
 
 This is a small bootstrap to power a website or part thereof with InfoLobby. Usually used for a blog sub-section or similar.
 
+Requirements:
+- LAMP host with PHP/Apache
+
 Instructions:
 1) Clone the contents into your sub-directory
 2) Ensure that the data and img directories have write permissions
