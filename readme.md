@@ -4,11 +4,14 @@ This is a small bootstrap to power a website or part thereof with InfoLobby. Usu
 
 Requirements:
 - LAMP host with PHP/Apache
+- InfoLobby account with a table with the following columns:
+  - title (text line)
+  - content (html text area)
 
 Instructions:
 1) Clone the contents into your sub-directory
 2) Ensure that the data and img directories have write permissions
-3) Make sure the talbe in InfoLobby is marked as Public API in the settings
+3) Make sure the table in InfoLobby is marked as Public API in the settings
 4) Get the Table ID from the Developer tab in Table Settings in InfoLobby
 5) Edit the config/config.php file
 6) Modify the tpl files in the config directory as desired
